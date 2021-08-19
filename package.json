@@ -1,0 +1,36 @@
+{
+  "name": "chart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chart.js": "3.3.2",
+    "chartjs-plugin-datalabels": "1.0.0",
+    "cors": "2.8.5",
+    "moment": "2.29.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "7.28.0",
+    "webpack": "5.38.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "3.11.0"
+  },
+  "scripts": {
+    "eslint": "eslint src/**/*.js",
+    "test": "npm run eslint",
+    "build": "webpack",
+    "start": "webpack-dev-server --open",
+    "backend": "cd backend && npm run backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/de-evg/chart.git"
+  },
+  "author": "de-evg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/de-evg/chart/issues"
+  },
+  "homepage": "https://github.com/de-evg/chart#readme"
+}
